@@ -1,0 +1,16 @@
+{
+    "name": "lisp-to-js-compiler-demo",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "vitest": "^1.6.0"
+    }
+}
