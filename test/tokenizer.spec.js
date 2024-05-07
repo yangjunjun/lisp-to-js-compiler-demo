@@ -35,7 +35,7 @@ describe("tokenizer", () => {
         ]
         expect(tokenizer(input)).toStrictEqual(tokens)
     })
-    it("single function - string - backtick", () => {
+    it("single function - string - single quote", () => {
         const input = "(concat `foo` `bar` )"
         const tokens = [
             { type: "paren", value: "(" },
